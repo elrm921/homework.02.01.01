@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <algorithm>
 
 void print_vector(std::vector<int> &a) {
     std::for_each(a.begin(), a.end(), [](int &n) {std::cout << n << " ";});
